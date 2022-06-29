@@ -3,7 +3,8 @@
 This project is primarily about the A* algorithm and the priority queue data structure with which the Npuzzle solver is implemented. Secondly, the project is an independent game implemented in React.
 
 
-  <img src="./screen/main.gif" aling="right" width="65%"/>
+
+<img src="./screen/main.gif" align="right" width="65%"/>
 
 ## Technologies
 
@@ -18,6 +19,7 @@ This project is primarily about the A* algorithm and the priority queue data str
 9. Docker
 10. Docker compose
 11. Webpack
+
 
 ## Launch
 
@@ -37,7 +39,10 @@ This project is primarily about the A* algorithm and the priority queue data str
 
 
 ## Desktop
+<<<<<<< HEAD
 
+=======
+>>>>>>> b373d2102185528e71f59aeca4053a7c4daf191e
   <img src="./screen/1.png" width="100%" alt="start">
   <img src="./screen/2.png" width="100%" alt="choice">
   <img src="./screen/3.png" width="100%" alt="options">
