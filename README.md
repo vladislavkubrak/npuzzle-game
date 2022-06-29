@@ -36,7 +36,7 @@ This project is primarily about the A* algorithm and the priority queue data str
 
 ## Desktop
 
-  <img src="./screen/main.gif" width="50%"/>
+  <img src="./screen/main.gif" align="right" width="50%"/>
 
   <img src="./screen/1.png" width="100%" alt="start">
   <img src="./screen/2.png" width="100%" alt="choice">
