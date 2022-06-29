@@ -39,10 +39,7 @@ This project is primarily about the A* algorithm and the priority queue data str
 
 
 ## Desktop
-<<<<<<< HEAD
 
-=======
->>>>>>> b373d2102185528e71f59aeca4053a7c4daf191e
   <img src="./screen/1.png" width="100%" alt="start">
   <img src="./screen/2.png" width="100%" alt="choice">
   <img src="./screen/3.png" width="100%" alt="options">
