@@ -16,7 +16,7 @@ This project is primarily about the A* algorithm and the priority queue data str
 9. Docker
 10. Docker compose
 11. Webpack
-<img src="./screen/main.gif" width="50%" style="position: absolute; top: -100px;"/>
+<img src="./screen/main.gif" align="right" width="20%" style="position: absolute; top: -100px;"/>
 
 ## Launch
 
