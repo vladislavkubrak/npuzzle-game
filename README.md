@@ -5,9 +5,9 @@ This project is primarily about the A* algorithm and the priority queue data str
 
 ## Technologies
 
+<img src="./screen/main.gif" align="right" width="50%"/>
 1. Js
 2. Html
-<img src="./screen/main.gif" align="right" width="50%"/>
 3. Css (styled-components)
 4. React
 5. React Router
