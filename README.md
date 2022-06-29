@@ -7,6 +7,7 @@ This project is primarily about the A* algorithm and the priority queue data str
 
 1. Js
 2. Html
+<img src="./screen/main.gif" align="right" width="50%"/>
 3. Css (styled-components)
 4. React
 5. React Router
@@ -16,7 +17,6 @@ This project is primarily about the A* algorithm and the priority queue data str
 9. Docker
 10. Docker compose
 11. Webpack
-<img src="./screen/main.gif" align="right" width="50%"/>
 
 ## Launch
 
