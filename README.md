@@ -16,6 +16,7 @@ This project is primarily about the A* algorithm and the priority queue data str
 9. Docker
 10. Docker compose
 11. Webpack
+<img src="./screen/main.gif" width="50%" style="position: absolute; top: -100px;"/>
 
 ## Launch
 
@@ -35,7 +36,6 @@ This project is primarily about the A* algorithm and the priority queue data str
 
 
 ## Desktop
-  <img src="./screen/main.gif" width="50%" style="position: absolute; top: -100px;"/>
   <img src="./screen/1.png" width="100%" alt="start">
   <img src="./screen/2.png" width="100%" alt="choice">
   <img src="./screen/3.png" width="100%" alt="options">
