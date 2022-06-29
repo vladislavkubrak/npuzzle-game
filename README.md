@@ -5,7 +5,6 @@ This project is primarily about the A* algorithm and the priority queue data str
 
 ## Technologies
 
-<img src="./screen/main.gif" align="right" width="50%"/>
 1. Js
 2. Html
 3. Css (styled-components)
