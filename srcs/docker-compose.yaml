@@ -1,0 +1,47 @@
+version: '3.8'
+
+networks:
+  front-tier: {}
+  back-tier: {}
+
+services:
+  frontend:
+    build: requirements/frontend/
+    volumes:
+      - ./requirements/frontend/:/usr/src/app
+      - ./requirements/algo/:/usr/src/algo
+      - /usr/src/app/node_modules
+    # ports:
+    #   - "3000:3000"
+    restart: always
+    env_file: .env
+    networks:
+      - front-tier
+      - back-tier
+    container_name: frontend
+
+  backend:
+    image: nestjs-api-dev:1.0.0
+    depends_on:
+      - frontend
+    build: requirements/backend/
+    volumes:
+      - ./requirements/backend/:/usr/src/app
+      - /usr/src/app/node_modules    
+      - ./requirements/frontend/build:/usr/src/app/build
+    ports:
+      - "3001:3000"
+    restart: always
+    env_file: .env
+    networks:
+      - back-tier
+    container_name: backend
+
+# volumes:
+#   db:
+#     driver: local
+#     name: db
+#     driver_opts:
+#       type: none
+#       o: bind
+#       device: /Users/zefir/Desktop/db
