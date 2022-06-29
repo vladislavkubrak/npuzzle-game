@@ -3,7 +3,8 @@
 This project is primarily about the A* algorithm and the priority queue data structure with which the Npuzzle solver is implemented. Secondly, the project is an independent game implemented in React.
 
 
-<img src="./screen/main.gif" align="right" width="50%"/>
+
+<img src="./screen/main.gif" align="right" width="65%"/>
 
 ## Technologies
 
